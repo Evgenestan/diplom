@@ -1,0 +1,147 @@
+{
+	"type": "reg-config",
+	"buffSize": 512000,
+	"numBuff": 3,
+	"activeObjects": 
+	[
+		"msgObj"
+	],
+	"objReg":
+	[
+		{	
+			"idObj": 0,
+			"name": "msgObj",
+			"kadrs":
+			[
+				{
+					"idKadr": 0,
+					"name": "currentSituation",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 1,
+					"name": "measurement",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 2,
+					"name": "DESCRIPTIONOBJEXT",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 3,
+					"name": "MEASUREMENTT",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 4,
+					"name": "timeTable",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 5,
+					"name": "HYPOTHESIS",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 6,
+					"name": "NEWOBJ",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 7,
+					"name": "REQUESTTESTH",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 8,
+					"name": "radiationControl",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 9,
+					"name": "receivingControl",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 10,
+					"name": "measuringRequest",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 11,
+					"name": "surveyRegion",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 12,
+					"name": "measuringResults",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 13,
+					"name": "DESK_OBJ_SYS",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1,
+					"subtype": "rel"
+				},
+				{
+					"idKadr": 14,
+					"name": "TARGETING",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1,
+					"subtype": "seq"
+				},
+				{
+					"idKadr": 15,
+					"name": "MODEL_TIME",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 16,
+					"name": "compl_simulation_step",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				},
+				{
+					"idKadr": 17,
+					"name": "COMMAND",
+					"isReg": true,
+					"maxCountReg": 1000,
+					"countBufReg": 1
+				}
+			]
+		}
+	]
+}
