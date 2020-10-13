@@ -49,8 +49,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<Message> _messages = [];
 
-  Future<String> _getPath() {
-    return FilePicker.platform.getDirectoryPath();
+  Future<String> _getPath() async {
+    final file = await FilePicker.platform.pickFiles();
+    return file.files.single.path;
   }
 
   void _getJson() async {
